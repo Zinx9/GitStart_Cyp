@@ -9,7 +9,7 @@ describe('Login Page - Successful Login', () => {
         cy.get('button').contains('Continue with email').click();
 
         // // Step 3: Enter a valid/registered email address and password
-        cy.get(':nth-child(1) > .text-accented > .border-borderSecondary').type('zinotest123@yopmail.com');  
+        cy.get(':nth-child(1) > .text-accented > .border-borderSecondary').type('zinototest@yopmail.com');  
         cy.get(':nth-child(2) > .text-accented > .border-borderSecondary').type('Tester123'); 
      
 

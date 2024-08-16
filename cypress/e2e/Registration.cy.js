@@ -11,7 +11,7 @@ describe('Landing Page', () => {
       cy.get('button').contains('Continue with email').click();
 
     //enter email address
-      cy.get('.border-borderSecondary').type('zinotesting@yopmail.com');
+      cy.get('.border-borderSecondary').type('zinototest1@yopmail.com');
 
     //Click on the "Continue with email" CTA
       cy.get('button').contains('Continue with email').click();
