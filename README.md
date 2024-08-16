@@ -70,12 +70,11 @@ Example `cypress.json`:
 
 Example test case:
 
-describe('My Web App', () => {
-  it('should load the homepage', () => {
-    cy.visit('/');
-    cy.contains('Welcome to My Web App');
-  });
-});
+describe('Landing Page', () => {
+  it('directs user to landing page', () => {
+    cy.visit('https://developers.gitstart.com/')
+  })
+})
 
  Additional Resources
 
