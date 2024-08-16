@@ -1,4 +1,4 @@
-This README provides instructions for setting up and running the Cypress test cases for the web application.
+This README provides instructions for setting up and running the Cypress test cases for the GitStart web application.
 
 Table of Contents
 
